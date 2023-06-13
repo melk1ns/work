@@ -66,3 +66,77 @@ html {
 	border-radius: 100px;
 	border: none;
 }
+.services {
+	display: flex;
+	justify-content: space-between;
+}
+.service {
+	width: 400px;
+	flex-direction: column;
+	height: 395px;
+	text-align: center;
+	width: 317px;
+}
+.service_title {
+	font-family: 'DM Serif Display';
+	font-size: 25px;
+	line-height: 39px;
+	padding-bottom: 18px;
+	text-align: center;
+	letter-spacing: 0.22px;
+}
+.longer {
+	padding-bottom: 68px;
+}
+.shoter {
+	padding-bottom: 36px;
+}
+.service_text {
+	font-size: 22px;
+	line-height: 33px;
+	color: #4d5053;
+	justify-content: center;
+	display: flex;
+	width: 317px;
+	text-align: center;
+	letter-spacing: 0.22px;
+}
+.service_btn {
+	justify-content: center;
+	display: flex;
+	font-size: 18px;
+	line-height: 27px;
+	color: #4d5053;
+	text-align: center;
+	letter-spacing: 0.36px;
+	margin-right: -8px;
+}
+.service_arrow {
+	margin-left: 8px;
+}
+.statistics_background {
+	background: #f4f0ec;
+	width: 100%;
+}
+.statistics {
+	width: 1440px;
+	display: flex;
+	height: 475px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.statistics_number {
+	font-family: 'DM Serif Display';
+	font-size: 85px;
+	line-height: 128px;
+	letter-spacing: 1.7px;
+	text-align: center;
+	color: #cda274;
+	margin-bottom: 10px;
+}
+.statistics_text {
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
