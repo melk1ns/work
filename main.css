@@ -11,3 +11,58 @@ html {
 	font-size: 22px;
 	font-weight: 400;
 }
+.wrapper_recent_projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item_recent_projects {
+	margin-bottom: 60px;
+	width: 590px;
+}
+.item_recent_projects:nth-child(2n + 1) {
+	margin-right: 20px;
+}
+.img_recent_projects {
+	margin-bottom: 24px;
+}
+.title_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 47px;
+	line-height: 62px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	margin-bottom: 20px;
+}
+.subtitle_recent_projects {
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+	width: 786px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+.lower_part_recent_projects {
+	display: flex;
+	justify-content: space-between;
+}
+.main_text_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+}
+.secondary_text_recent_projects {
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
+.button-arrow-round {
+	background: #f4f0ec;
+	width: 52px;
+	height: 52px;
+	border-radius: 100px;
+	border: none;
+}
